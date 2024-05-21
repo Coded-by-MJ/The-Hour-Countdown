@@ -1,6 +1,6 @@
-# The Hour Countdown App
+# The Hour Countdown Web App
 
-- A jQuery Timer Countdown App for easy minute countdowns. Perfect for events, workouts, and precise time management.
+- A jQuery Timer Countdown Web App for easy minute countdowns. Perfect for events, workouts, and precise time management.
 
 # Overview
 ![Dark-Theme](images/dark.png)
