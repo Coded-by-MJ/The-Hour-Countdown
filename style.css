@@ -74,7 +74,7 @@ nav{
     position: relative;
     cursor: pointer;
     font-size: 1rem;
-    background-image: url("image/moon.svg"), url("image/sun.svg");
+    background-image: url("images/moon.svg"), url("images/sun.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 20px 20px, 20px 20px;
     background-position: 3px center, 36px center;
