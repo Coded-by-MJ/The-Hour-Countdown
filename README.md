@@ -4,12 +4,13 @@
 # Overview
 ![Dark-Theme](images/dark.png)
 ![Light Theme](images/light.png)
+![Time's Up](images/timeUp.png)
 
 
 
 # Links
 
-- Live Site URL: [Click to view Live Site](https://mj-realtors.netlify.app/)
+- Live Site URL: [Click to view Live Site](https://the-hour-countdown.netlify.app/)
 
 
 
@@ -18,7 +19,7 @@
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
-- JQuery
+- jQuery
 
 
 
