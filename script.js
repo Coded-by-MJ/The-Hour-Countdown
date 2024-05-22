@@ -147,13 +147,12 @@ function stopCountdown() {
 
 function resetCountdown(){
     stopCountdown();
-    selectTime.val("");
     remainingTime = 0;
     localStorage.setItem("timer", remainingTime);
 
     $("#minutes").text(`00`);
     $("#seconds").text(`00`);
-    $(".form-control").show("fast");
+    $(".form-control").show();
     stopBtn.hide();
     startBtn.show();
     // console.log("resets everything");
