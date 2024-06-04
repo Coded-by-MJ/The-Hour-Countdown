@@ -122,6 +122,8 @@ function startCountdown() {
         $("#minutes").text(`${ minutes < 10 ? "0" + minutes : minutes }`);
         $("#seconds").text(`${ seconds < 10 ? "0" + seconds : seconds }`);
 
+        document.title = `${ minutes < 10 ? "0" + minutes : minutes }:${ seconds < 10 ? "0" + seconds : seconds }`;
+
         localStorage.setItem("timer", remainingTime);
 
 
@@ -150,6 +152,8 @@ function resetCountdown(){
     remainingTime = 0;
     localStorage.setItem("timer", remainingTime);
 
+
+     document.title = `The Hour Countdown`;
     $("#minutes").text(`00`);
     $("#seconds").text(`00`);
     $(".form-control").show();
